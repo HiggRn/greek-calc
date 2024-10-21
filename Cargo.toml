@@ -1,0 +1,16 @@
+[package]
+name = "greek-calc"
+version = "0.1.0"
+authors = ["HiggRn <zijie.gu0115@gmail.com>"]
+edition = "2021"
+description = "A package for calculating option Greeks"
+readme = "README.md"
+categories = ["finance"]
+
+[dependencies]
+nalgebra = { version = "0.33.1", features = ["rand"] }
+rand = "0.8.5"
+rand_distr = "0.4.3"
+
+[dev-dependencies]
+statrs = "0.17.1"
